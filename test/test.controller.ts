@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Controller, Get, NotFoundException, Param, Req } from '@nestjs/common';
 import { ActionVerb, ServiceType } from '@forlagshuset/audit-logging';
 import { AuditLogger } from '../src/audit-logging.decorator';

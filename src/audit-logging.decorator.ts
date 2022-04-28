@@ -4,11 +4,7 @@ import {
   Type,
   UseInterceptors,
 } from '@nestjs/common';
-import {
-  ActionVerb,
-  AuditLogOptions,
-  PII,
-} from '@forlagshuset/audit-logging';
+import { ActionVerb, AuditLogOptions, PII } from '@forlagshuset/audit-logging';
 import { AuditLoggingInterceptor } from './audit-logging.interceptor';
 import { MetadataKey } from './audit-logging.interfaces';
 
