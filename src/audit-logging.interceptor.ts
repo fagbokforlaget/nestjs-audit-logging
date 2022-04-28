@@ -8,7 +8,7 @@ import {
   Inject,
 } from '@nestjs/common';
 import { Reflector } from '@nestjs/core';
-import { Outcome, BaseAuditLogger } from '@fagbokforlaget/audit-logging';
+import { Outcome, BaseAuditLogger } from '@forlagshuset/audit-logging';
 import { MetadataKey } from './audit-logging.interfaces';
 import { AuditLoggerParams } from './audit-logging.decorator';
 

@@ -9,7 +9,7 @@ import {
   AuditLog,
   BaseAuditLogger,
   Transport,
-} from '@fagbokforlaget/audit-logging';
+} from '@forlagshuset/audit-logging';
 import { TestErrorHandler } from './error.handler';
 import { AuditLoggingInterceptor } from '../src/audit-logging.interceptor';
 import { TestController } from './test.controller';

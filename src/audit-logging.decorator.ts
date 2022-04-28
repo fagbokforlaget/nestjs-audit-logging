@@ -8,7 +8,7 @@ import {
   ActionVerb,
   AuditLogOptions,
   PII,
-} from '@fagbokforlaget/audit-logging';
+} from '@forlagshuset/audit-logging';
 import { AuditLoggingInterceptor } from './audit-logging.interceptor';
 import { MetadataKey } from './audit-logging.interfaces';
 
