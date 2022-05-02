@@ -14,7 +14,6 @@ export interface AuditLoggerParams {
   errorTypes?: Type<any>[];
   action: ActionVerb;
   pii?: PII[];
-  eventSubject: string;
   overrides?: Partial<AuditLogOptions>;
 }
 

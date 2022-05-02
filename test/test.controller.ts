@@ -13,7 +13,6 @@ export class TestController {
     action: ActionVerb.ACCESSED,
     actorIdGetter: (req) => req.headers['x-gateway-user-id'],
     objectIdGetter: (req) => req.params.id,
-    eventSubject: 'test',
     errorTypes: [TestError],
   })
   @Get('/error/:id')
@@ -25,7 +24,6 @@ export class TestController {
     action: ActionVerb.ACCESSED,
     actorIdGetter: (req) => req.headers['x-gateway-user-id'],
     objectIdGetter: (req) => req.params.id,
-    eventSubject: 'test',
     errorTypes: [TestError],
   })
   @Get('/not-error/:id')
@@ -37,7 +35,6 @@ export class TestController {
     action: ActionVerb.ACCESSED,
     actorIdGetter: (req) => req.headers['x-gateway-user-id'],
     objectIdGetter: (req) => req.params.id,
-    eventSubject: 'test',
     errorTypes: [NotFoundException],
   })
   @Get('/notfound/:id')
@@ -54,7 +51,6 @@ export class TestController {
     action: ActionVerb.ACCESSED,
     actorIdGetter: (req) => req.headers['x-gateway-user-id'],
     objectIdGetter: (req) => req.params.id,
-    eventSubject: 'test',
   })
   @Get('/success/:id')
   success(@Param('id') id: string) {
@@ -65,7 +61,6 @@ export class TestController {
     action: ActionVerb.ACCESSED,
     actorIdGetter: (req) => req.headers['x-gateway-user-id'],
     objectIdGetter: (req) => req.objectId,
-    eventSubject: 'test',
   })
   @Get('/object/:id')
   objectIdResolvedInMethod(
@@ -80,7 +75,6 @@ export class TestController {
     action: ActionVerb.ACCESSED,
     actorIdGetter: (req) => req.headers['x-gateway-user-id'],
     objectIdGetter: (req) => req.params.id,
-    eventSubject: 'test',
     overrides: {
       service: { type: ServiceType.Batch, id: 'test.service' },
     },

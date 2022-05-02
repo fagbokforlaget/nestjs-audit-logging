@@ -60,7 +60,6 @@ describe('AuditLog (e2e)', () => {
 
     app = moduleFixture.createNestApplication();
     app.useGlobalFilters(new TestErrorHandler());
-    interceptor = app.get<AuditLoggingInterceptor>(AuditLoggingInterceptor);
     auditLog = app.get<AuditLog>(AuditLog);
     await app.init();
   });
