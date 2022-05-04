@@ -22,7 +22,6 @@ class TestLoggerTransport implements Transport {
 
 describe('AuditLog (e2e)', () => {
   let app: INestApplication;
-  let interceptor: AuditLoggingInterceptor;
   let auditLog: AuditLog;
   let baseAuditLogger: BaseAuditLogger;
 
