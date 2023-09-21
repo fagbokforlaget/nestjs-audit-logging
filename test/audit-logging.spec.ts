@@ -27,7 +27,7 @@ describe('AuditLog (e2e)', () => {
 
   beforeEach(async () => {
     jest
-      .useFakeTimers('modern')
+      .useFakeTimers()
       .setSystemTime(new Date('2022-03-16T11:01:58.135Z'));
     const moduleFixture: TestingModule = await Test.createTestingModule({
       controllers: [TestController],
