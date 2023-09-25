@@ -43,8 +43,10 @@
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.2.2"
   },
+  "dependencies": {
+    "@forlagshuset/audit-logging": "^1.0.2"
+  },
   "peerDependencies": {
-    "@forlagshuset/audit-logging": "^1.0.2",
     "@nestjs/common": "^10.2.6"
   },
   "jest": {
