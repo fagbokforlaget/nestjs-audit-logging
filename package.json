@@ -44,7 +44,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@forlagshuset/audit-logging": "^1.0.3"
+    "@forlagshuset/audit-logging": "^1.0.4"
   },
   "peerDependencies": {
     "@nestjs/common": "^10.2.6"
