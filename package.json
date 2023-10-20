@@ -1,6 +1,6 @@
 {
   "name": "@forlagshuset/nestjs-audit-logging",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Nestjs Audit Logging Package",
   "main": "dist/index.js",
   "scripts": {
