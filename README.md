@@ -1,3 +1,5 @@
+<h1> [DEPRECATED] </h1>
+
 ## Nestjs Audit Logging Interceptor
 
 Library to facilitate adding custom audit log messages to nestjs controllers.
